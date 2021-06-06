@@ -77,13 +77,12 @@ class TransactionsPage {
    * По удалению транзакции вызовите метод App.update(),
    * либо обновляйте текущую страницу (метод update) и виджет со счетами
    * */
-    removeTransaction(ide) {
+    removeTransaction(id) {
         if (confirm("Вы действительно хотите удалить эту транзакцию?")) {
             const something = new FormData();
-            something.append("id", ide);
-            Transaction.remove(something, (err, response) => {
+            something.append("id", id);
+            Transaction.remove(something, (err) => {
                 if (!err) {
-                    console.log(response)
                     this.update();
                     App.updateWidgets();
                 }

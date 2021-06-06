@@ -31,8 +31,7 @@ const createRequest = (options = {}) => {
     try {
         xhr.open(method, url)
         xhr.responseType = "json";
-        xhr.withCredentials = true;
-        console.log(xhr);
+        // xhr.withCredentials = true;
         xhr.send(result);
         
         xhr.addEventListener("load", () => {
@@ -46,6 +45,9 @@ const createRequest = (options = {}) => {
             catch(e) {
                 callback(e)
             }
+        })
+        xhr.addEventListener("error", (e) => {
+            console.log(e);
         })
     }
     catch(e) {

@@ -24,7 +24,6 @@ class CreateTransactionForm extends AsyncForm {
    * */
     renderAccountsList() {
         const user = User.current();
-        console.log(user)
 
         Account.list(user, (err, response) => {
             if (!err) {     
@@ -33,7 +32,6 @@ class CreateTransactionForm extends AsyncForm {
                 })
                 const selectField = this.element.account_id;
                 selectField.innerHTML = accounts.join("");
-                console.log("cool");
             }
             else console.log(err)
         })

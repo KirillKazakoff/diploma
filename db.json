@@ -180,15 +180,6 @@
       "created_at": "2021-06-05T09:24:30.620Z"
     },
     {
-      "id": "sktwivz7kpjk1yb9",
-      "type": "income",
-      "name": "suka",
-      "sum": 100000,
-      "account_id": "sktwic6zkpj9ehvq",
-      "user_id": "sktwibbakpj9afsa",
-      "created_at": "2021-06-05T09:29:41.108Z"
-    },
-    {
       "id": "sktwiw0xkpjk2p9d",
       "type": "income",
       "name": "Стримил нюдсы на онликах",
@@ -207,31 +198,13 @@
       "created_at": "2021-06-05T09:34:14.335Z"
     },
     {
-      "id": "sktwiwtvkpjkc9wk",
+      "id": "sktwi1rcdkpkuya9y",
       "type": "income",
-      "name": "zazer",
-      "sum": 10000,
+      "name": "saff",
+      "sum": 13432,
       "account_id": "sktwic6zkpj9ehvq",
       "user_id": "sktwibbakpj9afsa",
-      "created_at": "2021-06-05T09:37:42.691Z"
-    },
-    {
-      "id": "sktwiwwgkpjkdnfe",
-      "type": "income",
-      "name": "suka",
-      "sum": 10000,
-      "account_id": "sktwic6zkpj9ehvq",
-      "user_id": "sktwibbakpj9afsa",
-      "created_at": "2021-06-05T09:38:46.873Z"
-    },
-    {
-      "id": "sktwix0pkpjkran1",
-      "type": "income",
-      "name": "bxgfdhgfc",
-      "sum": 8000,
-      "account_id": "sktwic6zkpj9ehvq",
-      "user_id": "sktwibbakpj9afsa",
-      "created_at": "2021-06-05T09:49:23.484Z"
+      "created_at": "2021-06-06T07:22:31.941Z"
     }
   ]
 }
